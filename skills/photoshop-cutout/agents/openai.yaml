@@ -1,0 +1,7 @@
+interface:
+  display_name: "Photoshop Cutout"
+  short_description: "Cut out active Photoshop documents on Windows."
+  default_prompt: "Use $photoshop-cutout to connect to the already-open Photoshop window, cut out the active image, place a refined layer back when useful, and export transparent plus white-background outputs."
+
+policy:
+  allow_implicit_invocation: true
